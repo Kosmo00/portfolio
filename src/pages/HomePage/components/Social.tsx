@@ -21,7 +21,7 @@ const plusDegree = 360 / children.length;
 for(const child of children){
   elements.push(
     <div 
-      className="rounded-full absolute bg-main w-10 h-10 flex items-center justify-center"
+      className="rounded-full absolute z-10 bg-main w-10 h-10 flex items-center justify-center"
       style={{
         transform: `translate(${Math.cos((actualDegree * Math.PI) / 180) * traslation}px, ${Math.sin((actualDegree * Math.PI) / 180) * traslation}px)`,
       }}
@@ -43,6 +43,7 @@ function Social() {
           <div className="rounded-full absolute bg-main w-10 h-10 flex items-center justify-center">
             <FaLinkedin className="cursor-pointer hover:text-4xl" />
           </div>
+          <div className="absolute border border-primary w-[180px] h-[180px] rounded-full z-0"></div>
         </div>
       </div>
     </div>
