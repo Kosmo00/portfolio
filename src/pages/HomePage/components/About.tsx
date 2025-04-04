@@ -48,7 +48,7 @@ function About() {
         </div>
         <div className="sm:mt-22 mt-12 flex justify-center sm:text-left">
           <div 
-            className="h-[240px] w-[135px] sm:h-[480px] sm:w-[270px] transition duration-200 bg-[url(./assets/image.jpeg)] bg-cover" 
+            className="h-[240px] w-[135px] sm:h-[480px] sm:w-[270px] transition duration-200 bg-[url(./assets/image.jpeg)] bg-cover rotate-y-180" 
           >
             <div className="w-full h-full bg-main transition duration-300 hover:opacity-0 mix-blend-color"></div>
           </div>
