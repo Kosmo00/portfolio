@@ -15,7 +15,7 @@ export default {
       "home": {
         "header": {
           "presentation": "Full stack software engineer who thrives on technical challenges. What drives me? So-called 'impossible' problems. My goal? Creating solutions that create impact.",
-          "contact-me": "Contact me!"
+          "contact-me": "Contact me"
         },
         "about": {
           "intro": "About me",
@@ -41,7 +41,8 @@ export default {
           "send-button": "Send",
         },
         "social": {
-          "intro": "Follow me"
+          "intro": "Follow me",
+          "legal": "It's legal"
         },
         "footer": {
           "first-text": "Designed and created by Vladimir Otero",

@@ -6,10 +6,10 @@ const i18nPreffix = 'pages.home.header.';
 function Header() {
   const { t } = useTranslation();
   return (
-    <section id='hero-section' className='h-[100vh] flex items-center pb-[10vh] pt-[10vh]'>
+    <section id='hero-section' className='h-[100vh] flex items-center pb-[10vh] pt-[15vh]'>
       <div className='max-w-[80vw] md:max-w-[40vw] ml-[10vw]'>
         <div className='text-5xl text-primary'>
-          Vladimir Otero Mariño
+          Vladimir Otero
         </div>
         <div className='text-lg mt-6 text-justify'>
           {t(`${i18nPreffix}presentation`)}

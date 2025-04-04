@@ -41,7 +41,8 @@ export default {
           "send-button": "Enviar",
         },
         "social":{
-          "intro": "Sígueme"
+          "intro": "Sígueme",
+          "legal": "Es legal"
         },
         "footer": {
           "first-text": "Diseñado y desarrollado por Vladimir Otero",
