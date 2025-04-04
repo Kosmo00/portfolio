@@ -12,7 +12,7 @@ interface NavPropTypes {
 function Nav({ children, scrollTo }: NavPropTypes){
 
   return (
-    <Link smooth duration={500} to={scrollTo} className='ml-3 hover:cursor-pointer hover:bg-accent px-1 transition duration-200 rounded-sm'>
+    <Link smooth duration={500} to={scrollTo} className='ml-3 hover:cursor-pointer hover:bg-accent px-1 transition duration-200 rounded-sm '>
       {children}
     </Link>
   );

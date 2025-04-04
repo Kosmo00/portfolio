@@ -5,7 +5,12 @@ const i18nPreffix = 'pages.home.contact.';
 function Contact() {
   const { t } = useTranslation();
   return (
-    <div id="contact" className="flex lg:justify-end items-center pr-[10vw] pl-[10vw] py-[10vh]">
+    <div id="contact" className="flex lg:justify-between items-center pr-[10vw] pl-[10vw] py-[10vh]">
+      <div className="hidden lg:grid lg:grid-cols-3 col-span-4">
+        {/* <div>asd1</div>
+        <div>asd2</div>
+        <div>asd3</div> */}
+      </div>
       <div className="bg-main-secondary text-dark font-semibold rounded-md px-10">
         <h3 className="text-2xl sm:text-4xl text-center mt-4">
           {t(i18nPreffix + 'intro')}

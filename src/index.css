@@ -23,5 +23,32 @@ li::before {
   content: "→ ";
   color: var(--primary);
   font-size: 1rem;
-  @apply mr-2; /* Margen a la derecha */
+  @apply mr-2;
+}
+
+.rotating-element-clockwise {
+  
+  animation: rotate-clockwise 30s linear infinite;
+}
+
+.rotating-element-counter-clockwise {
+  animation: rotate-counter-clockwise 30s linear infinite;
+}
+
+@keyframes rotate-clockwise {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate-counter-clockwise {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
 }
