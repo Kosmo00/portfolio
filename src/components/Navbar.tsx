@@ -55,7 +55,7 @@ function Navbar() {
   };
 
   return (
-    <div className={`h-18 md:max-h-18 bg-main flex justify-between items-center fixed w-full opacity-95 transition ease-in-out duration-500 ${isAtTop ? '' : 'shadow-xl'}`}>
+    <div className={`z-50 h-18 md:max-h-18 bg-main flex justify-between items-center fixed w-full opacity-95 transition ease-in-out duration-500 ${isAtTop ? '' : 'shadow-xl'}`}>
       <div className='ml-5'>Logo</div>
       <div className='mr-10 hidden md:flex text-lg md:items-center'>
         <Nav scrollTo='hero-section'>{t(`${i18nPreffix}header`)}</Nav>
