@@ -17,7 +17,7 @@ function Nav({ children, scrollTo, paddingTop, paddingBottom, borderBottom }: Na
 
   return (
     <Link smooth duration={500} to={scrollTo} 
-      className='pl-4 hover:cursor-pointer hover:bg-accent px-1 transition duration-200 rounded-sm'
+      className='md:px-2 pl-4 hover:cursor-pointer hover:bg-accent transition duration-200 rounded-sm'
       style={{
         paddingTop,
         paddingBottom,
@@ -75,30 +75,33 @@ function Navbar() {
           </div>
         </div>
       </div>
-      <div className='relative'>
-        <div className='mr-5 mt-2 md:hidden text-4xl' onClick={() => setDropdownExpanded(d => !d)}>
+      <div className='relative md:hidden'>
+        <div className='mr-5 mt-2 text-4xl' onClick={() => setDropdownExpanded(d => !d)}>
           <BiMenu />
         </div>
-        <div className={`absolute shadow-2xl w-[100px] right-2 top-11 flex flex-col bg-main overflow-hidden ${dropdownExpanded ? 'border border-main-secondary' : ''}`}
-        style={{
-          maxHeight: dropdownExpanded ? undefined : 0
-        }}>
-          <Nav borderBottom paddingBottom={5} paddingTop={5} scrollTo='hero-section'>{t(`${i18nPreffix}header`)}</Nav>
-          <Nav borderBottom paddingBottom={5} paddingTop={5} scrollTo='about'>{t(`${i18nPreffix}about`)}</Nav>
-          <Nav borderBottom paddingBottom={5} paddingTop={5} scrollTo='projects'>{t(`${i18nPreffix}projects`)}</Nav>
-          <Nav borderBottom paddingBottom={5} paddingTop={5} scrollTo='contact'>{t(`${i18nPreffix}contact`)}</Nav>
-          <Nav borderBottom paddingBottom={5} paddingTop={5} scrollTo='social'>Social</Nav>
-          {/* <div className='bg-main-secondary w-full h-[1px]' /> */}
-          <div>
-            <div className='text-center flex justify-start mt-1 mb-2 ml-4'>
-              <div className='hover:cursor-pointer hover:bg-accent pr-2 transition duration-200 rounded-sm' 
-              onClick={() => changeLanguage('en')}>EN</div>
-              |
-              <div className='hover:cursor-pointer hover:bg-accent pl-2 transition duration-200 rounded-sm' 
-              onClick={() => changeLanguage('es')}>ES</div>
+        {
+          dropdownExpanded &&
+          <div className={`absolute shadow-2xl w-[100px] right-2 top-11 flex flex-col bg-main overflow-hidden ${dropdownExpanded ? 'border border-main-secondary' : ''}`}
+          style={{
+            maxHeight: dropdownExpanded ? undefined : 0
+          }}>
+            <Nav borderBottom paddingBottom={5} paddingTop={5} scrollTo='hero-section'>{t(`${i18nPreffix}header`)}</Nav>
+            <Nav borderBottom paddingBottom={5} paddingTop={5} scrollTo='about'>{t(`${i18nPreffix}about`)}</Nav>
+            <Nav borderBottom paddingBottom={5} paddingTop={5} scrollTo='projects'>{t(`${i18nPreffix}projects`)}</Nav>
+            <Nav borderBottom paddingBottom={5} paddingTop={5} scrollTo='contact'>{t(`${i18nPreffix}contact`)}</Nav>
+            <Nav borderBottom paddingBottom={5} paddingTop={5} scrollTo='social'>Social</Nav>
+            {/* <div className='bg-main-secondary w-full h-[1px]' /> */}
+            <div>
+              <div className='text-center flex justify-start mt-1 mb-2 ml-4'>
+                <div className='hover:cursor-pointer hover:bg-accent pr-2 transition duration-200 rounded-sm' 
+                onClick={() => changeLanguage('en')}>EN</div>
+                |
+                <div className='hover:cursor-pointer hover:bg-accent pl-2 transition duration-200 rounded-sm' 
+                onClick={() => changeLanguage('es')}>ES</div>
+              </div>
             </div>
           </div>
-        </div>
+        }
       </div>
       
     </div>
