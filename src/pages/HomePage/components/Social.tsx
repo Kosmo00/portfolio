@@ -40,7 +40,7 @@ function Social() {
         <div className="text-6xl underline mb-5">{t(i18nPreffix + 'intro')}</div>
         <div className=" flex justify-center items-center h-60 relative text-5xl">
           {...elements}
-          <div className="rounded-full absolute bg-main w-10 h-10 flex items-center justify-center">
+          <div className="rounded-full absolute bg-main w-10 h-10 flex items-center justify-center z-10">
             <FaLinkedin className="cursor-pointer hover:text-4xl" />
           </div>
           <div className="absolute border border-primary w-[180px] h-[180px] rounded-full z-0"></div>
