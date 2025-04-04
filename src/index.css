@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  --main: #104f55; /* neutro */
+  --main-secondary: #3a8b83; 
+  /* --main-secondary: #32746d;  */
+  --accent: #011502;
+  --primary: #9ec5ab;
+  --dark: #01200f;
+  --dark-secondary: #011502;
+}
+
+@theme {
+  --color-primary: var(--primary);
+  --color-accent: var(--accent);
+  --color-main: var(--main);
+  --color-main-secondary: var(--main-secondary);
+  --color-dark: var(--dark);
+}
+
+
+li::before {
+  content: "→ ";
+  color: var(--primary);
+  font-size: 1rem;
+  @apply mr-2; /* Margen a la derecha */
+}
