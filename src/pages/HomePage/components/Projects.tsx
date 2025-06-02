@@ -45,7 +45,7 @@ function EnterpriseInfo({enterprise}: EnterpriseInfoPropTypes){
       <ul className="ml-5 mt-5 text-lg">
         {
           enterprise.tasks.map((task) => (
-            <li className="mt-5 text-justify">{t(task)}</li>
+            <li key={task} className="mt-5 text-justify">{t(task)}</li>
           ))
         }
       </ul>
