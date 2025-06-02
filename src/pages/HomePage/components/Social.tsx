@@ -7,9 +7,15 @@ import { FaFacebook } from "react-icons/fa";
 const traslation = 90;
 
 const children = [
-  <FaGithub className="cursor-pointer hover:text-4xl rotating-element-counter-clockwise" />,
-  <FaInstagram className="cursor-pointer hover:text-4xl rotating-element-counter-clockwise" />,
-  <FaFacebook className="cursor-pointer hover:text-4xl rotating-element-counter-clockwise" />,
+  <a href="https://github.com/Kosmo00" target="_blank">
+    <FaGithub className="cursor-pointer hover:text-4xl rotating-element-counter-clockwise" />
+  </a>,
+  <a>
+    <FaInstagram className="cursor-pointer hover:text-4xl rotating-element-counter-clockwise" />
+  </a>,
+  <a>
+    <FaFacebook className="cursor-pointer hover:text-4xl rotating-element-counter-clockwise" />
+  </a>
 ];
 
 
@@ -45,7 +51,9 @@ function Social() {
       <div className=" flex justify-center items-center h-1 w-1 mt-35 mb-15 relative text-5xl rotating-element-clockwise">
         {...elements}
         <div className="rounded-full absolute bg-main w-10 h-10 flex items-center justify-center z-10">
-          <FaLinkedin className="cursor-pointer hover:text-4xl rotating-element-counter-clockwise" />
+          <a href="https://www.linkedin.com/in/vladimir-otero-mariño" target="_blank">
+            <FaLinkedin className="cursor-pointer hover:text-4xl rotating-element-counter-clockwise" />
+          </a>
         </div>
         <div className="absolute border border-primary w-[180px] h-[180px] rounded-full z-0"></div>
       </div>
