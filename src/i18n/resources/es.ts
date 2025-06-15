@@ -35,7 +35,7 @@ export default {
           "lunageo-task-2": "Como Desarrollador Frontend, fui responsable del mantenimiento y optimización del sitio web NatureCounts.",
           "lunageo-interval": "nov, 2020 - feb, 2022",
           "lexdoka-task-1": "Trabajando en el editor Doka, mejorando el rendimiento y buscando lograr una experiencia de usuario similar a la de otros editores como Microsoft Word Online y Google Docs.",
-          "lexdoka-interval": "junio, 2025 - presente"
+          "lexdoka-interval": "jun, 2025 - presente"
         },
         "contact": {
           "intro": "Contáctame",
