@@ -41,7 +41,7 @@ function EnterpriseInfo({enterprise}: EnterpriseInfoPropTypes){
           </a>
         </span>
       </p>
-      <p className="text-lg">{enterprise.dateInterval}</p>
+      <p className="text-lg">{t(enterprise.dateInterval)}</p>
       <ul className="ml-5 mt-5 text-lg">
         {
           enterprise.tasks.map((task) => (
@@ -65,11 +65,21 @@ interface EnterpriseData {
 
 const enterprises: Array<EnterpriseData> = [
   {
+    name: 'LexDoka',
+    shortName: 'LexDoka',
+    role: 'Senior Frontend Developer',
+    landingUrl: 'https://lexdoka.com/',
+    dateInterval: i18nPreffix + 'lexdoka-interval',
+    tasks: [
+      i18nPreffix + 'lexdoka-task-1'
+    ]
+  },
+  {
     name: 'Napptilus Tech Labs',
     shortName: 'Napptilus',
-    role: 'Mid Engineer',
+    role: 'Software Engineer',
     landingUrl: 'https://napptilus.com/',
-    dateInterval: 'oct, 2022 - presente',
+    dateInterval:  i18nPreffix + 'napptilus-interval',
     tasks: [
       i18nPreffix + 'napptilus-task-1',
       i18nPreffix + 'napptilus-task-2',
@@ -80,12 +90,12 @@ const enterprises: Array<EnterpriseData> = [
     shortName: 'LunaGeo',
     landingUrl: 'https://lunageo.com/',
     role: 'Developer',
-    dateInterval: 'nov, 2020 - feb, 2022',
+    dateInterval:  i18nPreffix + 'lunageo-interval',
     tasks: [
       i18nPreffix + 'lunageo-task-1',
       i18nPreffix + 'lunageo-task-2',
     ]
-  }
+  },
 ]
 
 

@@ -30,8 +30,12 @@ export default {
           "intro": "Where I’ve worked?",
           "napptilus-task-1": "Led a full-stack development team at HyperGraph, driving the implementation of core features and ensuring agile delivery.",
           "napptilus-task-2": "Currently, I serve as a member of the backend development team at Nappai.",
+          "napptilus-interval": "oct, 2022 - present",
           "lunageo-task-1": "I worked as a Full Stack Developer on internal management projects.",
           "lunageo-task-2": "As a Frontend Developer, I was responsible for maintaining and optimizing the NatureCounts.",
+          "lunageo-interval": "nov, 2020 - feb, 2022",
+          "lexdoka-task-1": "Working on the Doka editor, improving performance and aiming to achieve a user experience similar to other editors like Microsoft Word Online and Google Docs.",
+          "lexdoka-interval": "june, 2025 - present"
         },
         "contact": {
           "intro": "Contact",
