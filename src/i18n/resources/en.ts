@@ -35,7 +35,7 @@ export default {
           "lunageo-task-2": "As a Frontend Developer, I was responsible for maintaining and optimizing the NatureCounts.",
           "lunageo-interval": "nov, 2020 - feb, 2022",
           "lexdoka-task-1": "Building the Doka collaborative editor, focused on performance optimization and delivering a user experience on par with Microsoft Word Online and Google Docs.",
-          "lexdoka-interval": "jun, 2025 - present"
+          "lexdoka-interval": "jun, 2025 - mar, 2026"
         },
         "contact": {
           "intro": "Contact",

@@ -65,16 +65,6 @@ interface EnterpriseData {
 
 const enterprises: Array<EnterpriseData> = [
   {
-    name: 'LexDoka',
-    shortName: 'LexDoka',
-    role: 'Senior Frontend Developer',
-    landingUrl: 'https://lexdoka.com/',
-    dateInterval: i18nPreffix + 'lexdoka-interval',
-    tasks: [
-      i18nPreffix + 'lexdoka-task-1'
-    ]
-  },
-  {
     name: 'Napptilus Tech Labs',
     shortName: 'Napptilus',
     role: 'Software Engineer',
@@ -83,6 +73,16 @@ const enterprises: Array<EnterpriseData> = [
     tasks: [
       i18nPreffix + 'napptilus-task-1',
       i18nPreffix + 'napptilus-task-2',
+    ]
+  },
+  {
+    name: 'LexDoka',
+    shortName: 'LexDoka',
+    role: 'Senior Frontend Developer',
+    landingUrl: 'https://lexdoka.com/',
+    dateInterval: i18nPreffix + 'lexdoka-interval',
+    tasks: [
+      i18nPreffix + 'lexdoka-task-1'
     ]
   },
   {
