@@ -15,7 +15,7 @@ function Header() {
           {t(`${i18nPreffix}presentation`)}
         </div>
         <div className="mt-12">
-          <Link smooth duration={500} to="contact" className="bg-primary text-lg text-dark hover:cursor-pointer hover:bg-accent hover:text-emerald-100 rounded px-4 py-2 transition duration-200">
+          <Link smooth duration={500} to="contact" className="bg-cta text-lg text-dark hover:cursor-pointer hover:bg-amber-400 rounded px-4 py-2 transition duration-200">
             {t(`${i18nPreffix}contact-me`)}
           </Link>
         </div>

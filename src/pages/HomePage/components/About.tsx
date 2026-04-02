@@ -19,13 +19,13 @@ function About() {
             <br />
             <br />
             {t(i18nPreffix + 'personal-data-2-part-1')} 
-            <a className="text-primary hover:underline" target="_blank" href="https://lunageo.com/">Lunageo</a>. 
-            {t(i18nPreffix + 'personal-data-2-part-2')} 
-            <a className="text-primary hover:underline" target="_blank" href="https://napptilus.com/">Napptilus</a> 
-            {t(i18nPreffix + 'personal-data-2-part-3')} 
-            <a className="text-primary hover:underline" target="_blank" href="https://nappai.ai/">Nappai</a> 
-            {t(i18nPreffix + 'personal-data-2-part-4')} 
-            <a className="text-primary hover:underline" target="_blank" href="https://napptilus.com/">HyperGraph</a>.
+            <a className="text-emerald-100 font-bold hover:underline" target="_blank" href="https://lunageo.com/">Lunageo</a>.
+            {t(i18nPreffix + 'personal-data-2-part-2')}
+            <a className="text-emerald-100 font-bold hover:underline" target="_blank" href="https://napptilus.com/">Napptilus</a>
+            {t(i18nPreffix + 'personal-data-2-part-3')}
+            <a className="text-emerald-100 font-bold hover:underline" target="_blank" href="https://nappai.ai/">Nappai</a>
+            {t(i18nPreffix + 'personal-data-2-part-4')}
+            <a className="text-emerald-100 font-bold hover:underline" target="_blank" href="https://napptilus.com/">HyperGraph</a>.
             <br />
             <br />
             {t(i18nPreffix + 'personal-data-3')}:

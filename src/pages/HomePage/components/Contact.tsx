@@ -74,8 +74,8 @@ function Contact() {
           />
         </div>
         <div className="flex justify-end">
-        <button type="submit" className="font-normal bg-primary text-lg mb-5 ml-20 text-dark hover:cursor-pointer hover:bg-accent hover:text-emerald-100 rounded px-4 py-2 transition duration-200">
-          Send
+        <button type="submit" className="font-normal bg-cta text-lg mb-5 ml-20 text-dark hover:cursor-pointer hover:bg-amber-400 rounded px-4 py-2 transition duration-200">
+          {t(i18nPreffix + 'send-button')}
         </button>
         </div>
       </form>

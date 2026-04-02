@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 :root {
-  --main: #104f55; /* neutro */
-  --main-secondary: #38a69b; 
-  /* --main-secondary: #3a8b83;  */
-  --accent: #011502;
-  --primary: #9ec5ab;
-  --dark: #01200f;
-  --dark-secondary: #011502;
+  --main: #1c1c1e;
+  --main-secondary: #10b981;
+  --accent: #2a2a2e;
+  --primary: #34d399;
+  --dark: #0f0f10;
+  --dark-secondary: #2a2a2e;
+  --cta: #f59e0b;
 }
 
 @theme {
@@ -16,6 +16,7 @@
   --color-main: var(--main);
   --color-main-secondary: var(--main-secondary);
   --color-dark: var(--dark);
+  --color-cta: var(--cta);
 }
 
 
@@ -24,6 +25,10 @@ li::before {
   color: var(--primary);
   font-size: 1rem;
   @apply mr-2;
+}
+
+#about li::before {
+  color: #d1fae5;
 }
 
 .rotating-element-clockwise {
